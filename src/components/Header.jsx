@@ -1,9 +1,9 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
+import AssignmentIcon from '@material-ui/icons/Assignment';
 function Header(){
     return <header><h1>
-    <HighlightIcon />
-        Keeper
+    <AssignmentIcon fontSize="large" />
+        KeepNotes
         </h1>
     </header>
 }
